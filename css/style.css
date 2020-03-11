@@ -1,34 +1,11 @@
-﻿
-
-body {
+﻿body {
     background-image: url(img/fon.jpg);
     color: #333333;
-    font-size: 14px;
-    margin: 0;
     background-repeat:no-repeat;
     background-attachment:fixed;
     background-size:cover;
     font-family:Arial;
 }
-.article {
-    padding: 10px 20px;
-}
-
-.article h2 {
-    
-}
-
-.article h3 {
-
-}
-.article p {
-        font-family: Arial;
-        font-size: 14px;
-        font-weight:700px;
-        text-indent:30px;
-        line-height:150%;
-        width:700px;
-    }
 .knopka {
     border: 1px solid #4800ff;
     display: inline-block;
