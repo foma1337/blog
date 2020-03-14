@@ -1,7 +1,9 @@
-﻿.container-1 {
-    display:flex;
-    flex-wrap:wrap;
-    flex:1;
+﻿@import "style.css";
+
+.container-1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
 }
 
 .container-1 div {
@@ -11,21 +13,17 @@
 
 .box-1 {
     flex:1;
-    justify-content:center;
 }
 
 .box-2 {
-    flex:1;
+    flex: 1;
 }
-
 .box-3 {
-    flex:1;
+    flex: 1;
 }
-
 .box-4 {
-    flex:1;
+    flex: 1;
 }
-
 .box-5 {
-    flex:1;
+    flex: 1;
 }

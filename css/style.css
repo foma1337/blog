@@ -13,3 +13,26 @@
     text-decoration:none;
     color:#000;
 }
+
+header {
+    background:lightblue;
+}
+
+.container {
+    max-width: 1000px; /*960-1200*/
+}
+
+.flex-row {
+    display: flex;
+    flex-direction:row;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-1 
+{
+    flex: 10%;
+}
