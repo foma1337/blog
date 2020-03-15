@@ -9,22 +9,26 @@ traveler's blog" />
     <link rel="icon" href="favicon.ico" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/flexbox.css" />
+    <link rel="stylesheet" href="css/header.css" />
     <title>Good travel</title>
 </head>
 <body>
     <header>
-        <nav>
-            <ul class="flex-row">
+        <nav class="dws-menu">
+            <ul>
                 <!--домашняя страница-->
-                <li class="flex-1">
+                <li>
                     <a href="travelblog.html">Home</a>
                 </li>
-                <li class="flex-1">
+                <li>
                     <a href="theblog.html">The blog</a>
-                    <ul class="flex-column">
+                    <ul>
                         <!-- submenu - выпадающий список-->
                         <li>
                             <a href="#">lifehacks</a>
+                        </li>
+                        <li>
+                            <a href="#">Country</a>
                         </li>
                         <li>
                             <a href="cities.html">cities</a>
@@ -32,22 +36,50 @@ traveler's blog" />
                         <li>
                             <a href="#">photo</a>
                         </li>
+                        <li>
+                            <a href="#">video</a>
+                        </li>
                     </ul>
-                    </li>
-                <li class="flex-1">
+                </li>
+                <li>
                     <a href="destination.html">Destination</a>
+                    <ul>
+                        <li>
+                            <a href="#">Italy</a>
+                        </li>
+                        <li>
+                            <a href="#">Prague</a>
+                        </li>
+                        <li>
+                            <a href="#">France</a>
+                        </li>
+                        <li>
+                            <a href="#">Grecce</a>
+                        </li>
+                        <li>
+                            <a href="#">Russia</a>
+                        </li>
+                    </ul>
                 </li>
-                <div class="flex-1">
-                    <img src="img/logotip.jpg" alt="Логотип" width="200" height="200" />
-                </div>
 
-                <li class="flex-1">
-                    <a href="write.html">Write me</a>
+                <li>
+                    <a href="writeme.html">Write me</a>
+                    <ul>
+                        <li>
+                            <a href="#">Email</a>
+                        </li>
+                        <li>
+                            <a href="#">telegram</a>
+                        </li>
+                        <li>
+                            <a href="#">phone</a>
+                        </li>
+                    </ul>
                 </li>
-                <li class="flex-1">
+                <li>
                     <a href="addtext.html">Adding article</a>
                 </li>
-                <li class="flex-1">
+                <li>
                     <a href="sign.html">Sign in</a>
                     <form name="sign" action="#" method="post">
                         <p>Please fill out this form to sign in.<p>
@@ -64,7 +96,7 @@ traveler's blog" />
                                 <button type="submit" class="enter">Enter</button>
                                 <hr />
                         <p>Don't have an account?<a href="prod1.html">Rigistration</a></p>
-                            </div>
+                        </div>
                     </form>
                 </li>
             </ul>
