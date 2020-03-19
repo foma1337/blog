@@ -1,0 +1,37 @@
+﻿body {
+    background:lightgrey;
+}
+
+fieldset {
+    border: 1px solid black;
+}
+
+input[type="submit"] {
+    border: 0;
+    padding: 5px 15px;
+    border-radius: 5px;
+    background: lightgrey;
+}
+
+form :focus {
+    outline: none;
+    border-color: lightblue;
+}
+
+textarea:valid,
+input:in-range,
+input[type="text"]:valid {
+    border: 1px solid green;
+}
+
+textarea:invalid,
+input:out-of-range,
+input[type="text"]:invalid {
+    border: 1px solid red;
+}
+
+.step {
+    display:flex;
+    flex-direction:column;
+    justify-content:left;
+}
